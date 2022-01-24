@@ -30,6 +30,8 @@ dependencies {
     runtimeOnly("io.micronaut.rxjava2:micronaut-rxjava2-http-server-netty")
     implementation("io.micronaut:micronaut-validation")
 
+    testImplementation("org.awaitility:awaitility:4.0.3")
+
 }
 
 
